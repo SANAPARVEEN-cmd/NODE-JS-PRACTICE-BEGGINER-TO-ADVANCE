@@ -17,8 +17,13 @@ const multiply  = (e,f) =>{
 const divide = (g,h) =>{
     return g/h;
 }
+// 2nd method
+module.exports.items = ['item1','item2'];
+module.exports.singlePerson = {'bob':'bob dood'};
+// 1st method 
+// module.exports = {
+//     john , peter, add, sub, multiply, divide
 
-module.exports = {
-    john , peter, add, sub, multiply, divide
+// };
 
-};
+
